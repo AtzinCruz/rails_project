@@ -2,13 +2,13 @@
 <html>
 <head>
 </head>
-
         <body>
                 
                 <div class = "container">
                         <h1 class = 'paragraph'>My personal home page</h1>
                         <p>You can read more about me, or checkout my information</p>
-                        <%= link_to "About me", about_path%>
+                        <%= link_to "About me", about_path, class: "btn btn-secondary"%>
+                        <%= link_to "Blog", posts_path, class: "btn btn-primary"%>
                 </div>
         </body>
 </html>
